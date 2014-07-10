@@ -14,4 +14,6 @@ YAML templates provided to `STDIN` and output them as JSON.
 
 * Eliminate the YAML assumption
   ([`js-yaml`'s](https://github.com/nodeca/js-yaml) binary doesn't know how to
-  read from `STDIN`, at least in 3.1.0).
+  read from `STDIN`, at least in 3.1.0; see
+  [nodeca/js-yaml#130](https://github.com/nodeca/js-yaml/issues/130) for more
+  info).
