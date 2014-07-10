@@ -1,6 +1,6 @@
 {
   "name": "interp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interpolate environment vars into mustache YAML templates",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "license": "ISC",
