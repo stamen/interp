@@ -4,8 +4,7 @@
 var url = require("url");
 
 var _ = require("highland"),
-    handlebars = require("handlebars"),
-    yaml = require("js-yaml");
+    handlebars = require("handlebars");
 
 if (process.env.DATABASE_URL) {
   var uri = url.parse(process.env.DATABASE_URL, true);
@@ -30,11 +29,5 @@ _(process.stdin)
   .invoke("join")
   .map(function(doc) {
     return handlebars.compile(doc)(process.env);
-  })
-  .map(function(body) {
-    return yaml.safeLoad(body);
-  })
-  .map(function(body) {
-    return JSON.stringify(body, null, "  ");
   })
   .pipe(process.stdout);

@@ -1,13 +1,16 @@
 {
   "name": "interp",
   "version": "0.0.2",
-  "description": "Interpolate environment vars into mustache YAML templates",
+  "description": "Interpolate environment vars into mustache templates",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "license": "ISC",
   "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stamen/interp.git"
+  },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "highland": "^1.25.4",
-    "js-yaml": "^2.1.3"
+    "handlebars": "^2.0.0-beta.1",
+    "highland": "^1.28.0"
   }
 }
