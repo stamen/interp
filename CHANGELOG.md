@@ -3,6 +3,7 @@
 ## v0.1.1 - 8/10/15
 
 * Avoid introducing extraneous commas into large inputs
+* Update dependencies
 
 ## v0.1.0 - 8/29/14
 
