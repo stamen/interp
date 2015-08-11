@@ -26,7 +26,7 @@ if (process.env.DATABASE_URL) {
 
 _(process.stdin)
   .collect()
-  .invoke("join")
+  .invoke("join", [""])
   .map(function(doc) {
     return handlebars.compile(doc)(process.env);
   })
