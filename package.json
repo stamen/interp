@@ -10,7 +10,7 @@
     "url": "git://github.com/stamen/interp.git"
   },
   "dependencies": {
-    "handlebars": "^3.0.3",
+    "handlebars": "^4.0.11",
     "highland": "^2.5.1"
   }
 }

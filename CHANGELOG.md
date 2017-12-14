@@ -1,5 +1,9 @@
 # Changes
 
+## v0.2.0 - 12/14/17
+
+* Update handlebars to pick up non-vulnerable uglify version
+
 ## v0.1.1 - 8/10/15
 
 * Avoid introducing extraneous commas into large inputs
